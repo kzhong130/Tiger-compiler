@@ -1,0 +1,696 @@
+[info]node num: 20
+degree 1 tmpnum 101 :0 spill rate 0
+degree 2 tmpnum 105 :0 spill rate 0
+degree 3 tmpnum 115 :0 spill rate 0
+degree 4 tmpnum 114 :0 spill rate 0
+degree 5 tmpnum 106 :0 spill rate 0
+degree 6 tmpnum 107 :0 spill rate 0
+degree 7 tmpnum 102 :18 spill rate 22
+degree 8 tmpnum 103 :17 spill rate 20
+degree 9 tmpnum 104 :16 spill rate 18
+degree 10 tmpnum 108 :3 spill rate 3
+degree 11 tmpnum 109 :4 spill rate 4
+degree 12 tmpnum 110 :4 spill rate 4
+degree 13 tmpnum 111 :3 spill rate 3
+degree 14 tmpnum 113 :3 spill rate 3
+degree 15 tmpnum 112 :3 spill rate 3
+degree 16 tmpnum 116 :4 spill rate 4
+degree 17 tmpnum 117 :5 spill rate 5
+degree 18 tmpnum 118 :4 spill rate 7
+degree 19 tmpnum 119 :4 spill rate 4
+degree 20 tmpnum 120 :4 spill rate 4
+move instruction 1 src 102 dst 105
+move instruction 2 src 103 dst 106
+move instruction 3 src 104 dst 107
+move instruction 4 src 116 dst 118
+move instruction 5 src 101 dst 112
+move instruction 6 src 111 dst 101
+move instruction 7 src 107 dst 104
+move instruction 8 src 106 dst 103
+move instruction 9 src 105 dst 102
+add potential spill node tempnum 102 degree 18
+add potential spill node tempnum 103 degree 17
+add potential spill node tempnum 104 degree 16
+simplify node 120
+Round 1
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :17
+degree 8 tmpnum 103 :16
+degree 9 tmpnum 104 :15
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :4
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :4
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :4
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 119
+Round 2
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :16
+degree 8 tmpnum 103 :15
+degree 9 tmpnum 104 :14
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :4
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :4
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :4
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 117
+Round 3
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :15
+degree 8 tmpnum 103 :14
+degree 9 tmpnum 104 :13
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :4
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 113
+Round 4
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :14
+degree 8 tmpnum 103 :13
+degree 9 tmpnum 104 :12
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :4
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 110
+Round 5
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :13
+degree 8 tmpnum 103 :12
+degree 9 tmpnum 104 :11
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 109
+Round 6
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :12
+degree 8 tmpnum 103 :11
+degree 9 tmpnum 104 :10
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 108
+Round 7
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :11
+degree 8 tmpnum 103 :10
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 102 105
+worklist num 9
+node 102 has succ 120
+node 102 has succ 119
+node 102 has succ 118
+node 102 has succ 117
+node 102 has succ 116
+node 102 has succ 112
+node 102 has succ 114
+node 102 has succ 115
+node 102 has succ 113
+node 102 has succ 101
+node 102 has succ 111
+node 102 has succ 110
+node 102 has succ 109
+node 102 has succ 108
+node 102 has succ 104
+node 102 has succ 103
+node 102 has succ 106
+node 102 has succ 107
+edge between 105 102 exist? 0
+flag 0
+Round 8
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :11
+degree 8 tmpnum 103 :10
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 103 106
+worklist num 8
+node 103 has succ 120
+node 103 has succ 119
+node 103 has succ 118
+node 103 has succ 117
+node 103 has succ 116
+node 103 has succ 112
+node 103 has succ 114
+node 103 has succ 115
+node 103 has succ 113
+node 103 has succ 101
+node 103 has succ 111
+node 103 has succ 110
+node 103 has succ 109
+node 103 has succ 108
+node 103 has succ 104
+node 103 has succ 107
+node 103 has succ 102
+edge between 106 103 exist? 0
+flag 0
+Round 9
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :11
+degree 8 tmpnum 103 :10
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 104 107
+worklist num 7
+node 104 has succ 120
+node 104 has succ 119
+node 104 has succ 118
+node 104 has succ 117
+node 104 has succ 116
+node 104 has succ 112
+node 104 has succ 114
+node 104 has succ 115
+node 104 has succ 113
+node 104 has succ 101
+node 104 has succ 111
+node 104 has succ 110
+node 104 has succ 109
+node 104 has succ 108
+node 104 has succ 102
+node 104 has succ 103
+edge between 107 104 exist? 0
+flag 1
+node 104 has 16 succ
+decrementDegree node tempnum 103 
+decrementDegree node tempnum 102 
+decrementDegree node tempnum 111 
+decrementDegree node tempnum 112 
+decrementDegree node tempnum 116 
+decrementDegree node tempnum 118 
+Round 10
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :10
+degree 8 tmpnum 103 :9
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 116 118
+worklist num 6
+node 118 has succ 107
+node 118 has succ 117
+node 118 has succ 102
+node 118 has succ 103
+node 118 has succ 104
+edge between 116 118 exist? 0
+flag 1
+node 118 has 5 succ
+decrementDegree node tempnum 103 
+decrementDegree node tempnum 102 
+Round 11
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :9
+degree 8 tmpnum 103 :8
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 116
+Round 12
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :8
+degree 8 tmpnum 103 :7
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 101 112
+worklist num 5
+node 112 has succ 107
+node 112 has succ 104
+node 112 has succ 103
+node 112 has succ 102
+edge between 101 112 exist? 0
+flag 1
+node 112 has 4 succ
+decrementDegree node tempnum 102 
+decrementDegree node tempnum 103 
+Round 13
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :7
+degree 8 tmpnum 103 :6
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 111 101
+worklist num 4
+node 111 has succ 107
+node 111 has succ 103
+node 111 has succ 102
+node 111 has succ 104
+edge between 101 111 exist? 0
+flag 1
+node 111 has 4 succ
+decrementDegree node tempnum 102 
+new worklist 103 106
+new worklist 102 105
+delete spill node 103
+decrementDegree node tempnum 103 
+Round 14
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :6
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 103 106
+worklist num 5
+node 103 has succ 120
+node 103 has succ 119
+node 103 has succ 118
+node 103 has succ 117
+node 103 has succ 116
+node 103 has succ 112
+node 103 has succ 114
+node 103 has succ 115
+node 103 has succ 113
+node 103 has succ 101
+node 103 has succ 111
+node 103 has succ 110
+node 103 has succ 109
+node 103 has succ 108
+node 103 has succ 104
+node 103 has succ 107
+node 103 has succ 102
+edge between 106 103 exist? 0
+flag 1
+node 103 has 17 succ
+delete spill node 102
+decrementDegree node tempnum 102 
+Round 15
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 107 104
+worklist num 4
+edge between 107 107 exist? 0
+Round 16
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 106 103
+worklist num 3
+edge between 106 106 exist? 0
+Round 17
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 105 102
+worklist num 2
+node 102 has succ 120
+node 102 has succ 119
+node 102 has succ 118
+node 102 has succ 117
+node 102 has succ 116
+node 102 has succ 112
+node 102 has succ 114
+node 102 has succ 115
+node 102 has succ 113
+node 102 has succ 101
+node 102 has succ 111
+node 102 has succ 110
+node 102 has succ 109
+node 102 has succ 108
+node 102 has succ 104
+node 102 has succ 103
+node 102 has succ 106
+node 102 has succ 107
+edge between 105 102 exist? 0
+flag 1
+node 102 has 18 succ
+Round 18
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+coalesce 102 105
+worklist num 1
+edge between 105 105 exist? 0
+Round 19
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+spill nodenum 104
+Round 20
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+simplify node 104
+Round 21
+degree 1 tmpnum 101 :0
+degree 2 tmpnum 105 :0
+degree 3 tmpnum 115 :0
+degree 4 tmpnum 114 :0
+degree 5 tmpnum 106 :0
+degree 6 tmpnum 107 :0
+degree 7 tmpnum 102 :5
+degree 8 tmpnum 103 :5
+degree 9 tmpnum 104 :9
+degree 10 tmpnum 108 :3
+degree 11 tmpnum 109 :3
+degree 12 tmpnum 110 :4
+degree 13 tmpnum 111 :3
+degree 14 tmpnum 113 :3
+degree 15 tmpnum 112 :3
+degree 16 tmpnum 116 :3
+degree 17 tmpnum 117 :5
+degree 18 tmpnum 118 :3
+degree 19 tmpnum 119 :3
+degree 20 tmpnum 120 :4
+assign node 101 color %eax
+assign node 105 color %ebx
+assign node 115 color %ecx
+assign node 114 color %edx
+assign node 106 color %esi
+assign node 107 color %edi
+assign node 102 color %ebx
+assign node 103 color %esi
+assign node 104 color %edi
+assign node 108 color %eax
+assign node 109 color %eax
+assign node 110 color %ecx
+assign node 111 color %eax
+assign node 113 color %eax
+assign node 112 color %eax
+assign node 116 color %eax
+assign node 117 color %ecx
+assign node 118 color %eax
+assign node 119 color %eax
+assign node 120 color %ecx
+L7:
+movl $10, %eax
+movl %eax, -4(%ebp)
+L4:
+movl -4(%ebp), %eax
+movl $0, %ecx
+cmp %ecx, %eax
+jge L5
+L1:
+movl $0, %eax
+jmp L6
+L5:
+movl -4(%ebp), %eax
+pushl %eax
+call printi 
+movl -4(%ebp), %eax
+movl $1, %ecx
+subl %ecx, %eax
+movl %eax, -4(%ebp)
+movl -4(%ebp), %eax
+movl $2, %ecx
+cmp %ecx, %eax
+je L2
+L3:
+jmp L4
+L2:
+jmp L1
+L6:
+
